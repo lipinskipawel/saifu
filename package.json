@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html",
-    "mock-server": "json-server --static ./private-data db.json"
+    "mock-server": "json-server --static ./public-data db.json",
+    "mock-server-prod": "json-server --static ./private-data db.json"
   },
   "repository": {
     "type": "git",
